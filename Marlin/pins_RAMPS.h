@@ -75,8 +75,8 @@
 #endif
 #define Y_MIN_PIN          14
 #define Y_MAX_PIN          15
-#define Z_MIN_PIN          18
-#define Z_MAX_PIN          19
+#define Z_MIN_PIN          19 // was 18, now connected to BLTouch
+#define Z_MAX_PIN          18 // was 19, now connected to Z sensor
 
 //
 // Z Probe (when not Z_MIN_PIN)
